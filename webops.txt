@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: rgb(255, 119, 0);
+  font-family:  Georgia, serif;
+}
+
+.header {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.round {
+  background-color: yellow;
+  border: 2px solid yellow;
+  border-radius: 12px;
+  padding: 5px;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 2px solid green;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+
+.card a:hover, .card a:active {
+  background-color: green;
+  color: white;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>MY DASHBOARD</h1>
+</div>
+
+<div class="dashboard">
+  <div class="card">
+    <h2 class="round">Notifications</h2>
+    <a href="default.asp" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/000/508/896/non_2x/notification-icon-design-vector.jpg"></a>
+  </div>
+
+  <div class="card">
+    <h2 class="round">Team Tasks Status</h2>
+    <a href="default.asp" target="_blank"><img src="https://www.rowshare.com/wp-content/uploads/2020/10/team-task-management.png"></a>
+  </div>
+
+  <div class="card">
+    <h2 class="round">To Do List</h2>
+    <a href="default.asp" target="_blank"><img src="https://thumbs.dreamstime.com/b/vector-illustration-to-do-list-violet-button-web-icon-white-background-121753939.jpg"></a>
+  </div>
+
+  <div class="card">
+    <h2 class="round">Timeline</h2>
+    <a href="default.asp" target="_blank"><img src="https://slidesforeducation.com/wp-content/uploads/2020/12/Graphs-timeline-Infographic-slidesforeducation.jpg"></a>
+  </div>
+
+  <div class="card">
+    <h2 class="round">Weather</h2>
+    <a href="default.asp" target="_blank"><img src="https://www.tripwiremagazine.com/wp-content/uploads/2013/01/weather-icon_thumb.jpg"></a>
+  </div>
+
+  <div class="card">
+    <h2 class="round">Calendar</h2>
+    <a href="default.asp" target="_blank"><img src="https://seeklogo.net/wp-content/uploads/2020/10/google-calendar-logo.png"></a>
+  </div>
+
+  <div class="card">
+    <h2 class="round">Self Progress</h2>
+    <a href="default.asp" target="_blank"><img src="https://static7.depositphotos.com/1238677/724/i/450/depositphotos_7244323-stock-photo-progress-colorful-graph-concept.jpg>"></a>
+ </div>
+
+<div>
+    <h2 class="round">Expenses</h2>
+    <a href="default.asp" target="_blank"><img src="https://www.thesmallbusinessexpo.com/media/Sales-Pie-Chart.jpg" width="300px"></a>
+</div>
+
+</body>
+</html>
